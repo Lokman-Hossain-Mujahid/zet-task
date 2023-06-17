@@ -1,4 +1,5 @@
 import HomeBanner from '@/components/HomeBanner'
+import MarqueeSlider from '@/components/MarqueeSlider'
 import Image from 'next/image'
 
 export const metadata = {
@@ -10,6 +11,7 @@ const Home = () => {
   return (
     <main>
       <HomeBanner/>
+      <MarqueeSlider/>
     </main>
   )
 }

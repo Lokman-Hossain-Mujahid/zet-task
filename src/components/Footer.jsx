@@ -19,7 +19,6 @@ const Footer = () => {
                 <div>
                     <Image className='mt-6 w-30' src={footerLogo} alt='footerLogo' />
                 </div>
-                {/* <div className='divider text-white'></div> */}
                 <hr className='mt-3 mb-12' />
                 <div className='relative text-lg grid grid-cols-4 w-full mx-auto text-white'>
                     <ul>
