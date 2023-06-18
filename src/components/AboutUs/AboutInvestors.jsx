@@ -47,7 +47,7 @@ const AboutInvestors = () => {
                         <Image src={invComp4} alt='img' />
                     </div>
                 </div>
-                <div className='grid grid-cols-5 gap-28'>
+                <div className='grid grid-cols-2 md:grid-cols-5 gap-28'>
                     <div>
                         <Image src={inv1} alt='img' />
                         <h2 className='mt-4 text-lg'>Kunal Shah</h2>

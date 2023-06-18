@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <div className='relative h-[50vh]'>
+        <div className='relative lg:h-[50vh]'>
             <div className='absolute inset-0 '>
                 <Image className='' src={footerImg} alt='footerLogo' fill />
             </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <Image className='mt-6 w-30' src={footerLogo} alt='footerLogo' />
                 </div>
                 <hr className='mt-3 mb-12' />
-                <div className='relative text-lg grid grid-cols-4 w-full mx-auto text-white'>
+                <div className='relative md:text-lg grid grid-cols-2 md:grid-cols-4 w-full mx-auto text-white'>
                     <ul>
                         <li className='mb-4'>COMPANY</li>
                         <li><Link href="/about">About Us</Link></li>
@@ -34,12 +34,12 @@ const Footer = () => {
                     </ul>
                     <ul>
                         <li className='mb-4'>CONTACT</li>
-                        <li className='flex items-center gap-3 my-1'><FiMail className='h-4' /><a>hi@zetapp.in</a></li>
-                        <li className='flex items-center gap-3'><HiOutlinePhone className='h-4' /><a>+91-7417274072</a></li>
+                        <li className='flex items-center gap-1 md:gap-3 my-1'><FiMail className='h-4' /><a>hi@zetapp.in</a></li>
+                        <li className='flex items-center gap-1 md:gap-3'><HiOutlinePhone className='h-4' /><a>+91-7417274072</a></li>
                     </ul>
                     <ul>
                         <li className='mb-4'>SOCIAL</li>
-                        <div className='flex gap-6'>
+                        <div className='flex gap-2 md:gap-6'>
                             <li className=''><FaLinkedin className='h-7 w-7' /></li>
                             <li className=''><FaInstagramSquare className='h-7 w-7' /></li>
                             <li className=''><FaFacebookSquare className='h-7 w-7'  /></li>

@@ -15,7 +15,7 @@ const ProductsOnZet = () => {
                 <h1 className='font-bold text-2xl'>Products on ZET</h1>
                 <h1 className='text-xl text-gray-500'>We are trusted by best brands in the country</h1>
             </div>
-            <div className='grid grid-cols-2 gap-10 w-[80vw] mx-auto relative z-10'>
+            <div className='grid md:grid-cols-2 gap-10 w-[80vw] mx-auto relative z-10'>
                 <div className='flex gap-4 items-center bg-green-100 rounded px-10 py-6'>
                     <div>
                         <Image className='h-52 w-64 grayscale' src={product3} alt='product1' />

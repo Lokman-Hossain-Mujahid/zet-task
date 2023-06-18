@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
                 <Image className='w-[250px] h-' src={whyChooseGrid} alt='img' />
                 <Image className='absolute -mt-[480px] -ml-7' src={whyChooseHero} alt='img' />
             </div>
-            <div className='w-3/4 grid grid-cols-3 gap-20'>
+            <div className='w-3/4 grid md:grid-cols-3 gap-20'>
                 <div>
                     <Image src={whyChooseIcon6} alt='img' />
                     <h1 className='text-xl font-bold mt-4'>Zero Investment</h1>

@@ -26,9 +26,9 @@ const navLinks = [
 const Navbar = () => {
     return (
         <div>
-            <nav className='flex items-center justify-between w-[90vw] mx-auto mt-4'>
-                <div><Image className='h-14 w-24' src={Logo} alt='Logo' /></div>
-                <ul className='flex items-center justify-center gap-5 text-lg text-gray-500'>
+            <nav className='md:flex items-center md:justify-between w-[100vw] md:w-[90vw] mx-auto mt-4'>
+                <div className='flex justify-center'><Image className='h-14 w-24' src={Logo} alt='Logo' /></div>
+                <ul className='md:flex text-center items-center justify-center gap-5 text-lg text-gray-500'>
                     {
                         navLinks.map(({ path, title }) => (
                             <li key={path}>
