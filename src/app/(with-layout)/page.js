@@ -1,6 +1,8 @@
 import HomeBanner from '@/components/HomeBanner'
+import WhyChooseUs from '@/components/HomeComponents/WhyChooseUs'
 import MarqueeSlider from '@/components/MarqueeSlider'
 import ProductsOnZet from '@/components/ProductsOnZet'
+import ZetEffect from '@/components/ZetEffect'
 import Image from 'next/image'
 
 export const metadata = {
@@ -14,6 +16,8 @@ const Home = () => {
       <HomeBanner/>
       <MarqueeSlider/>
       <ProductsOnZet/>
+      <ZetEffect/>
+      <WhyChooseUs/>
     </main>
   )
 }

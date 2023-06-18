@@ -1,0 +1,52 @@
+.parallelogram-wrapper {
+  width: 99vw;
+  /* Adjust the width as needed */
+  height: 120vh;
+  /* Adjust the height as needed */
+  overflow: hidden;
+  /* Hide the overflow */
+}
+
+.parallelogram {
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(75, 116, 204) 0%, rgb(59, 119, 230)00%);
+  clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 25%);
+  position: relative;
+  /* Add relative positioning for the nested parallelogram */
+}
+
+.inner-parallelogram {
+  position: absolute;
+  /* Position the inner parallelogram absolutely */
+  top: 20%;
+  /* Adjust the top position as needed */
+  left: 10%;
+  /* Adjust the left position as needed */
+  width: 80vw;
+  /* Adjust the width of the inner parallelogram */
+  height: 75vh;
+  /* Adjust the height of the inner parallelogram */
+  background-color: rgb(103, 161, 238);
+  /* Same background color as the outer parallelogram */
+  clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 30%);
+  /* Same clip path as the outer parallelogram */
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.parallelogram-content {
+  margin: 0;
+  /* Remove default margins for the content */
+  color: white;
+  /* Optional: Set the text color */
+  position: absolute;
+  /* Position the content absolutely */
+  top: 50%;
+  /* Center the content vertically */
+  left: 50%;
+  /* Center the content horizontally */
+  transform: translate(-50%, -50%);
+  /* Adjust the content position */
+}
