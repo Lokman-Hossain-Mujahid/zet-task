@@ -1,5 +1,6 @@
 import AboutEvolution from '@/components/AboutUs/AboutEvolution';
 import AboutHero from '@/components/AboutUs/AboutHero';
+import AboutInvestors from '@/components/AboutUs/AboutInvestors';
 import GotFeatured from '@/components/AboutUs/GotFeatured';
 import React from 'react';
 
@@ -14,6 +15,7 @@ const AboutPage = () => {
             <AboutHero/>
             <AboutEvolution/>
             <GotFeatured/>
+            <AboutInvestors/>
         </div>
     );
 };
