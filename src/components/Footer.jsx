@@ -7,7 +7,7 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedin, FaInstagramSquare, FaFacebookSquare, FaTelegramPlane, FaWhatsappSquare } from "react-icons/fa";
 import Link from 'next/link';
 
-
+//  Changing
 
 const Footer = () => {
     return (
