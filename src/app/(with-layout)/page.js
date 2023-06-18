@@ -1,4 +1,5 @@
 import HomeBanner from '@/components/HomeBanner'
+import Steps from '@/components/HomeComponents/Steps'
 import WhyChooseUs from '@/components/HomeComponents/WhyChooseUs'
 import MarqueeSlider from '@/components/MarqueeSlider'
 import ProductsOnZet from '@/components/ProductsOnZet'
@@ -18,6 +19,7 @@ const Home = () => {
       <ProductsOnZet/>
       <ZetEffect/>
       <WhyChooseUs/>
+      <Steps/>
     </main>
   )
 }

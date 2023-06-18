@@ -1,3 +1,4 @@
+import AboutHero from '@/components/AboutUs/AboutHero';
 import React from 'react';
 
 export const metadata = {
@@ -8,7 +9,7 @@ export const metadata = {
 const AboutPage = () => {
     return (
         <div>
-            <h1>this is about AboutPage</h1>
+            <AboutHero/>
         </div>
     );
 };
