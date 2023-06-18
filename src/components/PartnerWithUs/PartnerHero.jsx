@@ -6,7 +6,7 @@ import partnerHero from "../../../../../images/partner/hero/PartnerWithUsImage.w
 
 const PartnerHero = () => {
     return (
-        <div className='min-h-screen'>
+        <div className=''>
             <div className=''>
                 <div className='flex justify-between relative -z-10 -mt-16'>
                     <div className=''>

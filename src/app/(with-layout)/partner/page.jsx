@@ -1,4 +1,6 @@
+import PartnerDetails from '@/components/PartnerWithUs/PartnerDetails';
 import PartnerHero from '@/components/PartnerWithUs/PartnerHero';
+import PartnerWithUs from '@/components/PartnerWithUs/PartnerWithUs';
 import React from 'react';
 
 export const metadata = {
@@ -10,6 +12,8 @@ const Partner = () => {
     return (
         <div>
             <PartnerHero/>
+            <PartnerWithUs/>
+            <PartnerDetails/>
         </div>
     );
 };
