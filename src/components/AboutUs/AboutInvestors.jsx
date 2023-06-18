@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import invComp1 from "../../../../../images/AboutUs/investors/InvCompany1.webp"
 import invComp2 from "../../../../../images/AboutUs/investors/InvCompany2.webp"
@@ -12,16 +14,26 @@ import inv5 from "../../../../../images/AboutUs/investors/Inv5.webp"
 import inv6 from "../../../../../images/AboutUs/investors/Inv6.webp"
 import inv7 from "../../../../../images/AboutUs/investors/Inv7.webp"
 import inv8 from "../../../../../images/AboutUs/investors/Inv8.webp"
-
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutInvestors = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: false,
+        })
+    }, [])
+
     return (
         <div>
             <div className='w-[77vw] mx-auto mb-40'>
                 <div>
                     <h2 className='text-4xl font-bold py-16 text-gray-700'>Meet the Investors</h2>
                 </div>
-                <div className='flex gap-32 mb-32 px-4'>
+                <div data-aos="fade-up" className='flex gap-32 mb-32 px-4'>
                     <div>
                         <Image src={invComp1} alt='img' />
                     </div>
