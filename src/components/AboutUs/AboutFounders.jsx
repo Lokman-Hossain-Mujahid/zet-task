@@ -2,6 +2,7 @@ import React from 'react';
 import founder1 from "../../../../../images/AboutUs/founders/Manish.webp"
 import founder2 from "../../../../../images/AboutUs/founders/Yash.webp"
 import founder3 from "../../../../../images/AboutUs/founders/Lokesh.webp"
+import AboutFooter from "../../../../../images/AboutUs/footer/AboutUsFooter.webp"
 import Image from 'next/image';
 import { FaLinkedin } from "react-icons/fa";
 
@@ -52,6 +53,9 @@ const AboutFounders = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='mb-1'>
+                <Image src={AboutFooter} alt='footer' />
             </div>
         </div>
     );
