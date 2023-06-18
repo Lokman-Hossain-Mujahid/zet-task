@@ -16,40 +16,40 @@ const ProductsOnZet = () => {
                 <h1 className='text-xl text-gray-500'>We are trusted by best brands in the country</h1>
             </div>
             <div className='grid grid-cols-2 gap-10 w-[80vw] mx-auto relative z-10'>
-                <div className='flex items-center bg-green-100 rounded px-10 py-6'>
+                <div className='flex gap-4 items-center bg-green-100 rounded px-10 py-6'>
                     <div>
-                        <Image className='h-52 w-52 grayscale' src={product3} alt='product1' />
+                        <Image className='h-52 w-64 grayscale' src={product3} alt='product1' />
                     </div>
-                    <div>
+                    <div className='mt-2'>
                         <h1 className='text-xl font-bold'>CREDIT CARDS</h1>
-                        <p>100% Contactless Application Process with Instant Approval From Top Banks.</p>
+                        <p className='text-gray-500'>100% Contactless Application Process with Instant Approval From Top Banks.</p>
                     </div>
                 </div>
-                <div className='flex items-center bg-yellow-100 rounded px-10 py-6'>
+                <div className='flex gap-4 items-center bg-yellow-100 rounded px-10 py-6'>
                     <div>
-                        <Image className='h-52 w-52 grayscale' src={product4} alt='product1' />
+                        <Image className='h-52 w-64 grayscale' src={product4} alt='product1' />
                     </div>
-                    <div>
+                    <div className='mt-2'>
                         <h1 className='text-xl font-bold'>LOANS</h1>
-                        <p>100% online process. Instant offers. Affordable Rate of Interest on loans.</p>
+                        <p className='text-gray-500'>100% online process. Instant offers. Affordable Rate of Interest on loans.</p>
                     </div>
                 </div>
-                <div className='flex items-center bg-red-100 rounded px-10 py-6'>
+                <div className='flex gap-4 items-center bg-red-100 rounded px-10 py-6'>
                     <div>
-                        <Image className='h-52 w-52 grayscale' src={product2} alt='product1' />
+                        <Image className='h-52 w-64 grayscale' src={product2} alt='product1' />
                     </div>
-                    <div>
+                    <div className='mt-2'>
                         <h1 className='text-xl font-bold'>BUY NOW PAY LATER</h1>
-                        <p>Short-term financing that allows consumers to make purchases and pay for them over time.</p>
+                        <p className='text-gray-500'>Short-term financing that allows consumers to make purchases and pay for them over time.</p>
                     </div>
                 </div>
-                <div className='flex items-center bg-orange-100 rounded px-10 py-6'>
+                <div className='flex gap-4 items-center bg-orange-100 rounded px-10 py-6'>
                     <div>
-                        <Image className='h-52 w-52 grayscale' src={product1} alt='product1' />
+                        <Image className='h-52 w-64 grayscale' src={product1} alt='product1' />
                     </div>
-                    <div>
+                    <div className='mt-2'>
                         <h1 className='text-xl font-bold'>SAVING ACCOUNTS</h1>
-                        <p>ZET offers range of savings account that suits your personal needs for the banking.</p>
+                        <p className='text-gray-500'>ZET offers range of savings account that suits your personal needs for the banking.</p>
                     </div>
                 </div>
             </div>
