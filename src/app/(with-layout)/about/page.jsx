@@ -1,4 +1,5 @@
 import AboutEvolution from '@/components/AboutUs/AboutEvolution';
+import AboutFounders from '@/components/AboutUs/AboutFounders';
 import AboutHero from '@/components/AboutUs/AboutHero';
 import AboutInvestors from '@/components/AboutUs/AboutInvestors';
 import GotFeatured from '@/components/AboutUs/GotFeatured';
@@ -16,6 +17,7 @@ const AboutPage = () => {
             <AboutEvolution/>
             <GotFeatured/>
             <AboutInvestors/>
+            <AboutFounders/>
         </div>
     );
 };
