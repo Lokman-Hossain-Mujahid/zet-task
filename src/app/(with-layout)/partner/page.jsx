@@ -1,3 +1,4 @@
+import PartnerHero from '@/components/PartnerWithUs/PartnerHero';
 import React from 'react';
 
 export const metadata = {
@@ -8,7 +9,7 @@ export const metadata = {
 const Partner = () => {
     return (
         <div>
-            <h2>Partner With Us</h2>
+            <PartnerHero/>
         </div>
     );
 };

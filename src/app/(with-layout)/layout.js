@@ -6,7 +6,7 @@ const withLaOut = ({ children }) => {
     return (
         <div>
             <Navbar/>
-            <hr className='my-2' />
+            <hr className='' />
             {children}
             <Footer/>
         </div>
