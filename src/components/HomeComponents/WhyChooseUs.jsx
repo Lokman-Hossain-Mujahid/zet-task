@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image';
 import React from 'react';
 import whyChooseHero from "../../../../../images/why choose us/whyUsHero.webp"
@@ -8,8 +10,19 @@ import whyChooseIcon3 from "../../../../../images/why choose us/financialProduct
 import whyChooseIcon4 from "../../../../../images/why choose us/Icon_support.c8382fc1.svg"
 import whyChooseIcon5 from "../../../../../images/why choose us/quick_payout.1d689e09.svg"
 import whyChooseIcon6 from "../../../../../images/why choose us/zero_investment.d5743aab.svg"
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const WhyChooseUs = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: false,
+        })
+    }, [])
+
     return (
         <div className='flex h-[80vh] w-[70vw] mx-auto items-center'>
             <div className='w-1/3'>
@@ -20,7 +33,7 @@ const WhyChooseUs = () => {
                 <Image className='w-[250px] h-' src={whyChooseGrid} alt='img' />
                 <Image className='absolute -mt-[480px] -ml-7' src={whyChooseHero} alt='img' />
             </div>
-            <div className='w-3/4 grid md:grid-cols-3 gap-20'>
+            <div data-aos="fade-up" className='w-3/4 grid md:grid-cols-3 gap-20'>
                 <div>
                     <Image src={whyChooseIcon6} alt='img' />
                     <h1 className='text-xl font-bold mt-4'>Zero Investment</h1>

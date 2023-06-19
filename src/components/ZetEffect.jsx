@@ -12,7 +12,7 @@ const ZetEffect = () => {
           <div>
             <h2 className='text-2xl font-bold text-white'>THE ZET EFFECT</h2>
             <div>
-              
+              {/* {slider with a progress bar} */}
             </div>
           </div>
         </div>

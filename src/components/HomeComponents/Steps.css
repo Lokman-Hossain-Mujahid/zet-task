@@ -10,8 +10,8 @@
   .parallelogram {
     width: 100%;
     height: 100%;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgb(28, 30, 34) 0%, rgb(29, 32, 39)00%);
+    background: rgb(3, 2, 17);
+    background: linear-gradient(90deg, rgb(20, 21, 24) 0%, rgb(17, 19, 24)00%);
     clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 25%);
     position: relative;
     /* Add relative positioning for the nested parallelogram */

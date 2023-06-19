@@ -20,7 +20,7 @@ const Footer = () => {
                     <Image className='mt-6 w-30' src={footerLogo} alt='footerLogo' />
                 </div>
                 <hr className='mt-3 mb-12' />
-                <div className='relative md:text-lg grid grid-cols-2 md:grid-cols-4 w-full mx-auto text-white'>
+                <div className='relative md:text-lg grid mb-6 md:mb-0 grid-cols-2 md:grid-cols-4 w-full mx-auto text-white'>
                     <ul>
                         <li className='mb-4'>COMPANY</li>
                         <li><Link href="/about">About Us</Link></li>

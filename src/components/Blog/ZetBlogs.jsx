@@ -18,7 +18,7 @@ const ZetBlogs = () => {
             <div>
                 <h2 className='text-4xl font-bold text-gray-700'>ZET Blogs</h2>
             </div>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-14'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 mt-14'>
                 <a href='https://zetapp.in/blog/10-must-have-financial-products-for-millennials-in-india'>
                     <div className=''>
                         <div className=''>
@@ -134,7 +134,7 @@ const ZetBlogs = () => {
                             </h2>
                         </div>
                         <div className='text-2xl font-bold'>
-                            <p>Do's and Don'ts for Applying for a Loan in India
+                            <p>Do&apos;s and Don&apos;ts for Applying for a Loan in India
                             </p>
                         </div>
                     </div>
