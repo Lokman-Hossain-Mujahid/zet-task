@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Logo from "../../../../images/Logo/zet_new_logo.7adcc993.svg"
+import Logo from "../../public/images/Logo/zet_new_logo.7adcc993.svg"
 import Link from 'next/link';
 import NavLink from './NavLink';
 
