@@ -32,11 +32,11 @@ const AboutInvestors = () => {
 
     return (
         <div>
-            <div className='w-[77vw] mx-auto mb-40'>
+            <div className='w-[77vw] mx-auto mb-20 md:mb-40'>
                 <div>
-                    <h2 className='text-4xl font-bold py-16 text-gray-700'>Meet the Investors</h2>
+                    <h2 className='text-center text-3xl md:text-left md:text-4xl font-bold py-4 md:py-16 text-gray-700'>Meet the Investors</h2>
                 </div>
-                <div data-aos="fade-up" className='flex gap-32 mb-32 px-4'>
+                <div data-aos="fade-up" className='flex gap-32 md:mb-32 px-4'>
                     <div>
                         <Image src={invComp1} alt='img' />
                     </div>
@@ -50,7 +50,7 @@ const AboutInvestors = () => {
                         <Image src={invComp4} alt='img' />
                     </div>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-5 gap-28'>
+                <div className='grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-28'>
                     <Tilt scale={scale}>
                         <div>
                             <Image src={inv1} alt='img' />
