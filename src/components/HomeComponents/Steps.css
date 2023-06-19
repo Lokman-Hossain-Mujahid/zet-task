@@ -1,34 +1,48 @@
-.parallelogram-wrapper {
-    width: 80vw;
+.pparallelogram-wrapper {
+  width: 99vw;
+  /* Adjust the width as needed */
+  height: 130vh;
+  /* Adjust the height as needed */
+  overflow: hidden;
+  /* Hide the overflow */
+}
+
+.pparallelogram {
+  width: 100%;
+  height: 100%;
+  background: rgb(16, 13, 59);
+  background: linear-gradient(90deg, rgb(28, 30, 36) 0%, rgb(42, 51, 71) 100%);
+  clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 25%);
+  position: relative;
+  /* Add relative positioning for the nested parallelogram */
+}
+
+.pparallelogram-content {
+  margin: 0;
+  /* Remove default margins for the content */
+  color: white;
+  /* Optional: Set the text color */
+  position: absolute;
+  /* Position the content absolutely */
+  top: 50%;
+  /* Center the content vertically */
+  left: 50%;
+  /* Center the content horizontally */
+  transform: translate(-50%, -50%);
+  /* Adjust the content position */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .pparallelogram-wrapper {
+    width: 100vw;
     /* Adjust the width as needed */
-    height: 50vh;
-    /* Adjust the height as needed */
-    overflow: hidden;
-    /* Hide the overflow */
+    /* height: auto; */
+    /* Adjust the height to fit the content */
   }
-  
-  .parallelogram {
-    width: 100%;
-    height: 100%;
-    background: rgb(3, 2, 17);
-    background: linear-gradient(90deg, rgb(20, 21, 24) 0%, rgb(17, 19, 24)00%);
-    clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 25%);
-    position: relative;
-    /* Add relative positioning for the nested parallelogram */
+
+  .pparallelogram {
+    /* clip-path: none; */
+    /* Remove the clip-path */
   }
-  
-  
-  .parallelogram-content {
-    margin: 0;
-    /* Remove default margins for the content */
-    color: white;
-    /* Optional: Set the text color */
-    position: absolute;
-    /* Position the content absolutely */
-    top: 50%;
-    /* Center the content vertically */
-    left: 50%;
-    /* Center the content horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust the content position */
-  }
+}

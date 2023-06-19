@@ -11,6 +11,10 @@ import sliderImg8 from "../../../../images/marque/IndusInd.webp"
 import sliderImg9 from "../../../../images/marque/StandardChartered.webp"
 import sliderImg10 from "../../../../images/marque/YesBank.webp"
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/bundle';
+
+// import styles bundle
+import 'swiper/css/bundle';
 
 
 const MarqueeSlider = () => {

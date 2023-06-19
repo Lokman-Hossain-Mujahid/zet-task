@@ -24,16 +24,16 @@ const WhyChooseUs = () => {
     }, [])
 
     return (
-        <div className='flex h-[80vh] w-[70vw] mx-auto items-center'>
+        <div className='md:flex md:h-[80vh] w-[90vw] md:w-[70vw] mx-auto items-center'>
             <div className='w-1/3'>
-                <div className='absolute text-center mt-28 -ml-10'>
+                <div className='absolute text-center ml-10 mt-4 md:mt-28 md:-ml-10'>
                     <h2 className='text-xl font-bold'>Why <span className='text-blue-600'>Choose Us</span></h2>
                     <p>Why we are loved by our customers</p>
                 </div>
-                <Image className='w-[250px] h-' src={whyChooseGrid} alt='img' />
-                <Image className='absolute -mt-[480px] -ml-7' src={whyChooseHero} alt='img' />
+                <Image className='md:w-[250px] md:ml-0 ml-24' src={whyChooseGrid} alt='img' />
+                <Image className='md:absolute -mt-[200px] md:-mt-[480px] ml-24 md:-ml-7' src={whyChooseHero} alt='img' />
             </div>
-            <div data-aos="fade-up" className='w-3/4 grid md:grid-cols-3 gap-20'>
+            <div data-aos="fade-up" className='md:w-3/4 mt-20 md:mt-0 grid grid-cols-2 md:grid-cols-3 gap-20'>
                 <div>
                     <Image src={whyChooseIcon6} alt='img' />
                     <h1 className='text-xl font-bold mt-4'>Zero Investment</h1>

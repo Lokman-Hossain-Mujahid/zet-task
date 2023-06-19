@@ -50,3 +50,33 @@
   transform: translate(-50%, -50%);
   /* Adjust the content position */
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 600px) {
+  .parallelogram-wrapper {
+    width: 100vw;
+    /* Adjust the width as needed */
+    /* height: auto; */
+    /* Adjust the height to fit the content */
+  }
+
+  .parallelogram {
+    /* clip-path: none; */
+    /* Remove the clip-path */
+  }
+}
