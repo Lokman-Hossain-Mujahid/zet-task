@@ -8,7 +8,7 @@ const PartnerHero = () => {
     return (
         <div className=''>
             <div className=''>
-                <div className='flex justify-between relative -z-10 -mt-16'>
+                <div className='flex justify-between relative -z-10 md:-mt-16'>
                     <div className=''>
                         <Image className='' src={grid1} alt='Grid 1' width="341" height="452" />
                     </div>
@@ -17,7 +17,7 @@ const PartnerHero = () => {
                     </div>
                 </div>
             </div>
-            <div className='mx-auto w-[99vw] flex justify-center -mt-[520px]'>
+            <div className='mx-auto w-[99vw] flex justify-center -mt-[400px] md:-mt-[520px]'>
                 <Image src={partnerHero} alt='img' width="1550" height="500"/>
             </div>
             
