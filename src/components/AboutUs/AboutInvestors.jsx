@@ -1,19 +1,19 @@
 "use client"
 
 import React, { useState } from 'react';
-import invComp1 from "../../../../../images/AboutUs/investors/InvCompany1.webp"
-import invComp2 from "../../../../../images/AboutUs/investors/InvCompany2.webp"
-import invComp3 from "../../../../../images/AboutUs/investors/InvCompany3.webp"
-import invComp4 from "../../../../../images/AboutUs/investors/InvCompany4.webp"
+import invComp1 from "../../../public/images/AboutUs/investors/InvCompany1.webp"
+import invComp2 from "../../../public/images/AboutUs/investors/InvCompany2.webp"
+import invComp3 from "../../../public/images/AboutUs/investors/InvCompany3.webp"
+import invComp4 from "../../../public/images/AboutUs/investors/InvCompany4.webp"
 import Image from 'next/image';
-import inv1 from "../../../../../images/AboutUs/investors/Inv1.webp"
-import inv2 from "../../../../../images/AboutUs/investors/Inv2.webp"
-import inv3 from "../../../../../images/AboutUs/investors/Inv3.webp"
-import inv4 from "../../../../../images/AboutUs/investors/Inv4.webp"
-import inv5 from "../../../../../images/AboutUs/investors/Inv5.webp"
-import inv6 from "../../../../../images/AboutUs/investors/Inv6.webp"
-import inv7 from "../../../../../images/AboutUs/investors/Inv7.webp"
-import inv8 from "../../../../../images/AboutUs/investors/Inv8.webp"
+import inv1 from "../../../public/images/AboutUs/investors/Inv1.webp"
+import inv2 from "../../../public/images/AboutUs/investors/Inv2.webp"
+import inv3 from "../../../public/images/AboutUs/investors/Inv3.webp"
+import inv4 from "../../../public/images/AboutUs/investors/Inv4.webp"
+import inv5 from "../../../public/images/AboutUs/investors/Inv5.webp"
+import inv6 from "../../../public/images/AboutUs/investors/Inv6.webp"
+import inv7 from "../../../public/images/AboutUs/investors/Inv7.webp"
+import inv8 from "../../../public/images/AboutUs/investors/Inv8.webp"
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

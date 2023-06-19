@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import aboutHero from "../../../../../images/AboutUs/Hero/OurMission.webp"
+import aboutHero from "../../../public/images/AboutUs/Hero/OurMission.webp"
 
 
 const AboutHero = () => {

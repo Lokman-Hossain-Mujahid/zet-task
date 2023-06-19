@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import grid1 from "../../../../../images/products/decImg.ead9275f.svg";
-import grid2 from "../../../../../images/products/decImg2.3cc2964a.svg";
-import partnerHero from "../../../../../images/partner/hero/PartnerWithUsImage.webp"
+import grid1 from "../../../public/images/products/decImg.ead9275f.svg";
+import grid2 from "../../../public/images/products/decImg2.3cc2964a.svg";
+import partnerHero from "../../../public/images/partner/hero/PartnerWithUsImage.webp"
 
 const PartnerHero = () => {
     return (

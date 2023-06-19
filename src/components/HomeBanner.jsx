@@ -1,8 +1,8 @@
 "use client"
 
 import React from 'react';
-import heroImg from "../../../../images/banner/HeroImgNew.webp"
-import googPlay from "../../../../images/banner/downloadBtnDark.a0f01343.svg"
+import heroImg from "../../public/images/banner/HeroImgNew.webp"
+import googPlay from "../../public/images/banner/downloadBtnDark.a0f01343.svg"
 import Image from 'next/image';
 import { useEffect } from 'react'
 import AOS from 'aos';

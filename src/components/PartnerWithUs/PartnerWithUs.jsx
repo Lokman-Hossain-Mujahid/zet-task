@@ -1,9 +1,9 @@
 "use client"
 
 import React, { useState } from 'react';
-import partner1 from "../../../../../images/partner/partner with us/PartnerBrands.webp"
-import partner2 from "../../../../../images/partner/partner with us/PincodesServed.webp"
-import partner3 from "../../../../../images/partner/partner with us/FinancialAdvicers.webp"
+import partner1 from "../../../public/images/partner/partner with us/PartnerBrands.webp"
+import partner2 from "../../../public/images/partner/partner with us/PincodesServed.webp"
+import partner3 from "../../../public/images/partner/partner with us/FinancialAdvicers.webp"
 import Image from 'next/image';
 import Tilt from 'react-parallax-tilt'
 

@@ -1,14 +1,14 @@
 import React from 'react';
-import blog1 from "../../../../../images/blog/Blog_Financial_Products_f0395526f5.jpg"
-import blog2 from "../../../../../images/blog/Blog_Types_of_Loan_12bc3a0b83.jpg"
-import blog3 from "../../../../../images/blog/Credit_Card_Blog_84eb01d4f1.jpg"
-import blog4 from "../../../../../images/blog/Blog_Personal_Loans_1_37f95ad4a4.jpg"
-import blog5 from "../../../../../images/blog/Credit_Score_b09948343c.jpg"
-import blog6 from "../../../../../images/blog/Credit_History_4acdab9346.jpg"
-import blog7 from "../../../../../images/blog/Afraid_of_Credit_Card_36fa6a237d.png"
-import blog8 from "../../../../../images/blog/Do_s_and_Dont_s_c409c9a6b7.jpg"
-import blog9 from "../../../../../images/blog/Purple_Illustration_Business_Marketing_Blog_Banner_3_095d05830f.png"
-import blog10 from "../../../../../images/blog/Purple_Illustration_Business_Marketing_Blog_Banner_7_a92fa5a83c.png"
+import blog1 from "../../../public/images/blog/Blog_Financial_Products_f0395526f5.jpg"
+import blog2 from "../../../public/images/blog/Blog_Types_of_Loan_12bc3a0b83.jpg"
+import blog3 from "../../../public/images/blog/Credit_Card_Blog_84eb01d4f1.jpg"
+import blog4 from "../../../public/images/blog/Blog_Personal_Loans_1_37f95ad4a4.jpg"
+import blog5 from "../../../public/images/blog/Credit_Score_b09948343c.jpg"
+import blog6 from "../../../public/images/blog/Credit_History_4acdab9346.jpg"
+import blog7 from "../../../public/images/blog/Afraid_of_Credit_Card_36fa6a237d.png"
+import blog8 from "../../../public/images/blog/Do_s_and_Dont_s_c409c9a6b7.jpg"
+import blog9 from "../../../public/images/blog/Purple_Illustration_Business_Marketing_Blog_Banner_3_095d05830f.png"
+import blog10 from "../../../public/images/blog/Purple_Illustration_Business_Marketing_Blog_Banner_7_a92fa5a83c.png"
 import Image from 'next/image';
 
 

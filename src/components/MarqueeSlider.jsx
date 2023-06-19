@@ -1,15 +1,15 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import sliderImg1 from "../../../../images/marque/Amex.webp"
-import sliderImg2 from "../../../../images/marque/Aufin.webp"
-import sliderImg3 from "../../../../images/marque/Axis.webp"
-import sliderImg4 from "../../../../images/marque/Bajaj.webp"
-import sliderImg5 from "../../../../images/marque/BOB.webp"
-import sliderImg6 from "../../../../images/marque/Icici.webp"
-import sliderImg7 from "../../../../images/marque/Idfc.webp"
-import sliderImg8 from "../../../../images/marque/IndusInd.webp"
-import sliderImg9 from "../../../../images/marque/StandardChartered.webp"
-import sliderImg10 from "../../../../images/marque/YesBank.webp"
+import sliderImg1 from "../../public/images/marque/Amex.webp"
+import sliderImg2 from "../../public/images/marque/Aufin.webp"
+import sliderImg3 from "../../public/images/marque/Axis.webp"
+import sliderImg4 from "../../public/images/marque/Bajaj.webp"
+import sliderImg5 from "../../public/images/marque/BOB.webp"
+import sliderImg6 from "../../public/images/marque/Icici.webp"
+import sliderImg7 from "../../public/images/marque/Idfc.webp"
+import sliderImg8 from "../../public/images/marque/IndusInd.webp"
+import sliderImg9 from "../../public/images/marque/StandardChartered.webp"
+import sliderImg10 from "../../public/images/marque/YesBank.webp"
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/bundle';
 

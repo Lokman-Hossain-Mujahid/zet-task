@@ -1,6 +1,6 @@
 import React from 'react';
 import "@/components/HomeComponents/Steps.css"
-import googleButton from "../../../../../images/banner/downloadBtnDark.a0f01343.svg"
+import googleButton from "../../../public/images/banner/downloadBtnDark.a0f01343.svg"
 import Image from 'next/image';
 // import bg from "../../../../../images/earningDec.b2e9943b.svg"
 

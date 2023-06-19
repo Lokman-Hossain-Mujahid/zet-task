@@ -1,13 +1,13 @@
 "use client"
 
 import React, { useState } from 'react';
-import grid1 from "../../../../images/products/decImg.ead9275f.svg";
-import grid2 from "../../../../images/products/decImg2.3cc2964a.svg";
+import grid1 from "../../public/images/products/decImg.ead9275f.svg";
+import grid2 from "../../public/images/products/decImg2.3cc2964a.svg";
 import Image from 'next/image';
-import product1 from "../../../../images/products/AccountSave.webp"
-import product2 from "../../../../images/products/BNPL.webp"
-import product3 from "../../../../images/products/CC.webp"
-import product4 from "../../../../images/products/Loan.webp"
+import product1 from "../../public/images/products/AccountSave.webp"
+import product2 from "../../public/images/products/BNPL.webp"
+import product3 from "../../public/images/products/CC.webp"
+import product4 from "../../public/images/products/Loan.webp"
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

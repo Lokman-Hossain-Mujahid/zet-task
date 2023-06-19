@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import evolutionImg from "../../../../../images/AboutUs/Evolution/Growth.webp"
+import evolutionImg from "../../../public/images/AboutUs/Evolution/Growth.webp"
 
 const AboutEvolution = () => {
     return (

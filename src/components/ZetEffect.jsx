@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import '@/components/ZetEffect.css';
-import sliderBg from '../../../../images/middle text slider bg/peeps1.webp';
+import sliderBg from '../../public/images/middleTextSliderBG/peeps1.webp';
 import Image from 'next/image';
 
 const ZetEffect = () => {

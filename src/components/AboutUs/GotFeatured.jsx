@@ -1,9 +1,9 @@
 import React from 'react';
-import featured1 from "../../../../../images/AboutUs/featured/EconomicTimes.webp"
-import featured2 from "../../../../../images/AboutUs/featured/Inc42.webp"
-import featured3 from "../../../../../images/AboutUs/featured/mint.webp"
-import featured4 from "../../../../../images/AboutUs/featured/YourStory.webp"
-import featured5 from "../../../../../images/AboutUs/featured/BusinessStandard.webp"
+import featured1 from "../../../public/images/AboutUs/featured/EconomicTimes.webp"
+import featured2 from "../../../public/images/AboutUs/featured/Inc42.webp"
+import featured3 from "../../../public/images/AboutUs/featured/mint.webp"
+import featured4 from "../../../public/images/AboutUs/featured/YourStory.webp"
+import featured5 from "../../../public/images/AboutUs/featured/BusinessStandard.webp"
 import Image from 'next/image';
 
 const GotFeatured = () => {

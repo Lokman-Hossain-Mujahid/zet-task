@@ -2,14 +2,14 @@
 
 import Image from 'next/image';
 import React from 'react';
-import whyChooseHero from "../../../../../images/why choose us/whyUsHero.webp"
-import whyChooseGrid from "../../../../../images/why choose us/bgImg.webp"
-import whyChooseIcon1 from "../../../../../images/why choose us/customerSupport.5780cd23.svg"
-import whyChooseIcon2 from "../../../../../images/why choose us/Fin_products.0e8a0582.svg"
-import whyChooseIcon3 from "../../../../../images/why choose us/financialProduct.1b3d6eec.svg"
-import whyChooseIcon4 from "../../../../../images/why choose us/Icon_support.c8382fc1.svg"
-import whyChooseIcon5 from "../../../../../images/why choose us/quick_payout.1d689e09.svg"
-import whyChooseIcon6 from "../../../../../images/why choose us/zero_investment.d5743aab.svg"
+import whyChooseHero from "../../../public/images/whyChooseUs/whyUsHero.webp"
+import whyChooseGrid from "../../../public/images/whyChooseUs/bgImg.webp"
+import whyChooseIcon1 from "../../../public/images/whyChooseUs/customerSupport.5780cd23.svg"
+import whyChooseIcon2 from "../../../public/images/whyChooseUs/Fin_products.0e8a0582.svg"
+import whyChooseIcon3 from "../../../public/images/whyChooseUs/financialProduct.1b3d6eec.svg"
+import whyChooseIcon4 from "../../../public/images/whyChooseUs/Icon_support.c8382fc1.svg"
+import whyChooseIcon5 from "../../../public/images/whyChooseUs/quick_payout.1d689e09.svg"
+import whyChooseIcon6 from "../../../public/images/whyChooseUs/zero_investment.d5743aab.svg"
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

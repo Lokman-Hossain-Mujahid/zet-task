@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import footerImg from "../../../../images/footer/AboutUs.webp"
-import footerLogo from "../../../../images/footer/zet_logo_white.04e35c15.svg"
+import footerImg from "../../public/images/footer/AboutUs.webp"
+import footerLogo from "../../public/images/footer/zet_logo_white.04e35c15.svg"
 import { HiOutlinePhone } from "react-icons/hi";
 import { FiMail } from "react-icons/fi";
 import { FaLinkedin, FaInstagramSquare, FaFacebookSquare, FaTelegramPlane, FaWhatsappSquare } from "react-icons/fa";
