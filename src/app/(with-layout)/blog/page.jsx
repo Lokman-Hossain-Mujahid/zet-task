@@ -1,3 +1,4 @@
+import ZetBlogs from '@/components/Blog/ZetBlogs';
 import React from 'react';
 
 export const metadata = {
@@ -8,7 +9,7 @@ export const metadata = {
 const Blog = () => {
     return (
         <div>
-            <h2>This is Blog Page</h2>
+            <ZetBlogs/>
         </div>
     );
 };
